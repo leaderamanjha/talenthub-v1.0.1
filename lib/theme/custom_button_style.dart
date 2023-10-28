@@ -62,11 +62,11 @@ class CustomButtonStyles {
   static BoxDecoration get gradientBlueToWhite => BoxDecoration(
         borderRadius: BorderRadius.circular(11.h),
         gradient: LinearGradient(
-          begin: Alignment(0.89, 0),
-          end: Alignment(-0.99, 1),
+          begin: Alignment(0.99, 0),
+          end: Alignment(-0.98, 1),
           colors: [
+            appTheme.lightBlue800,
             appTheme.blue50,
-            appTheme.whiteA700.withOpacity(0.8),
           ],
         ),
       );
