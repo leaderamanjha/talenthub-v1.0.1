@@ -180,13 +180,13 @@ class MilkScreen extends StatelessWidget {
                                                     CrossAxisAlignment.end,
                                                 children: [
                                                   CustomElevatedButton(
-                                                      width: 55.h,
-                                                      text: "Popular",
+                                                      width: 80.h,
+                                                      text: "Hormone Free", 
                                                       buttonStyle:
                                                           CustomButtonStyles
                                                               .none,
                                                       decoration: CustomButtonStyles
-                                                          .gradientGreenAToYellowADecoration),
+                                                          .gradientBlueToWhite),
                                                   SizedBox(height: 18.v),
                                                   CustomElevatedButton(
                                                       height: 35.v,
